@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disjunction Network Training</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Disjunction Network Training</h1>
+
+    <div class="main-content">
+        
+        <div prediction-container>
+            <form id="prediction-form">
+              <button id="trainButton" type="button">Навчати</button>
+                <label for="input1">Input 1:</label>
+                <input type="text" id="input1" name="input1">
+                <label for="input2">Input 2:</label>
+                <input type="text" id="input2" name="input2">
+
+                <button id="predictButton" type="button">Передбачити</button>
+            </form>
+
+            <div id="prediction-result">
+                <!-- Тут буде відображений результат передбачення -->
+            </div> 
+        </div> 
+
+        <div id="training-results">
+            <!-- Тут буде відображений процес навчання -->
+        </div>
+    </div>
+    
+    <script src="neural_network.js"></script>
+</body>
+</html>
